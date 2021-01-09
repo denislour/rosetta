@@ -5,6 +5,9 @@ This project follow the structure below:
 
 ![Project Structure](https://github.com/denislour/rosetta/blob/master/Assets/img/structure.png)
 
+Rosetta using repository pattern
+![Repository Pattern](https://github.com/denislour/rosetta/blob/master/Assets/img/pattern.png)
+
 ## Getting Started
 
 Use these instructions to get the project up and running.
