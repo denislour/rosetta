@@ -3,7 +3,7 @@
 Rosetta is a e-commerce backend application built using ASP.NET Core and Entity Framework Core.
 This project follow the structure below:
 
-![Project Structure](http://url/to/img.png)
+![Project Structure](https://github.com/denislour/rosetta/blob/master/Assets/img/structure.png)
 
 ## Getting Started
 
