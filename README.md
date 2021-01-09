@@ -41,4 +41,4 @@ Follow these steps to get your development environment set up:
 
 ## License
 
-<!-- This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/jasontaylordev/NorthwindTraders/blob/master/LICENSE.md) file for details. -->
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/denislour/rosetta/blob/master/LICENSE) file for details.
