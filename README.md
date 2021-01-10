@@ -60,6 +60,7 @@ Follow these steps to get your development environment set up:
   - Get store context
   - Migrate database
   - Working with seed data
+- Research lazy load and eager load
 
 ## License
 
