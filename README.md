@@ -62,6 +62,11 @@ Follow these steps to get your development environment set up:
   - Working with seed data
 - Research lazy load and eager load
 
+### Generic Repository
+
+- Implementing the generic repository (for standard entity)
+- Implementing the `specification pattern` (for special entity)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/denislour/rosetta/blob/master/LICENSE) file for details.
