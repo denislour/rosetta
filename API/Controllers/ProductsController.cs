@@ -6,6 +6,7 @@ using Core.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Core.Interfaces;
+using Microsoft.VisualBasic;
 
 namespace API.Controllers
 {
@@ -32,7 +33,19 @@ namespace API.Controllers
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
             var product = await _repository.GetProductByIdAsync(id);
-            return Ok(product);
+            return product;
+        }
+
+        [HttpGet("brands")]
+        public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductBrands()
+        {
+            return Ok(await _repository.GetProductBrandsAsync());
+        }
+
+        [HttpGet("types")]
+        public async Task<ActionResult<IReadOnlyList<ProductType>>> GetProductTypes()
+        {
+            return Ok(await _repository.GetProductTypesAsync());
         }
     }
 }

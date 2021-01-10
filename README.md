@@ -45,6 +45,22 @@ Follow these steps to get your development environment set up:
 - Entity Framework Core 3
 - Angular 8
 
+## Receipt
+
+### Basic WebApi
+
+- Preview the controllers, entity
+- Connect, migrate database
+- Separate project into 3 parts: API, Core, Infrastructure
+
+### Architect
+
+- Preview repository pattern
+- Preview the middleware:
+  - Get store context
+  - Migrate database
+  - Working with seed data
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/denislour/rosetta/blob/master/LICENSE) file for details.
