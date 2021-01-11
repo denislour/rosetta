@@ -271,3 +271,4 @@ __pycache__/
 
 .vscode/
 appsettings.json
+.DS_Store

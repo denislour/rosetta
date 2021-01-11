@@ -67,6 +67,7 @@ Follow these steps to get your development environment set up:
 - Implementing the generic repository (for standard entity)
 - Implementing the `specification pattern` (for special entity)
 - Add Dto (Data transfer object) and mapping `Entity` to `Dto`
+- Config static file
 
 ## License
 
