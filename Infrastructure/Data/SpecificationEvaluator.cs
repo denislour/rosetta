@@ -2,7 +2,6 @@ using System.Linq;
 using Core.Entities;
 using Core.Specifications;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Internal;
 
 namespace Infrastructure.Data
 {
