@@ -69,6 +69,8 @@ Follow these steps to get your development environment set up:
 - Add Dto (Data transfer object) and mapping `Entity` to `Dto`
 - Config static file
 
+### Error Handling
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/denislour/rosetta/blob/master/LICENSE) file for details.
