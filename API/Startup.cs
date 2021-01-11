@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using API.Helpers;
+using API.Middlewares;
 using AutoMapper;
 using Core.Interfaces;
 using Infrastructure.Data;
@@ -20,7 +21,7 @@ namespace API
 {
     public class Startup
     {
-        IConfiguration _config;
+        private readonly IConfiguration _config;
         public Startup(IConfiguration config)
         {
             _config = config;
@@ -41,10 +42,10 @@ namespace API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+
+            app.UseMiddleware<ExceptionMiddleware>();
+
+            app.UseStatusCodePagesWithReExecute("/errors/{0}");
 
             app.UseHttpsRedirection();
 

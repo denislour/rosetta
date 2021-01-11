@@ -71,6 +71,9 @@ Follow these steps to get your development environment set up:
 
 ### Error Handling
 
+- Handle bundle of error (200, 300, 400, 500)
+- Handle resource not found (404)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/denislour/rosetta/blob/master/LICENSE) file for details.
